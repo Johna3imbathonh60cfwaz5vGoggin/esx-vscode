@@ -89,7 +89,7 @@
     "ESX RegisterUsableItem": {
         "prefix": "ESX RegisterUsableItem",
         "body": [
-            "ESX.RegsiterItem('${1:itemName}', function(playerId)",
+            "ESX.RegisterUsableItem('${1:itemName}', function(playerId)",
             "  local xPlayer = ESX.GetPlayerFromId(playerId)",
             "  -- Your code here",
             "end)"
